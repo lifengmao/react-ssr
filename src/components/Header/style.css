@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.test {
+  background: #e0e0e0;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.item{
+  margin-left: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+}
+.item:hover{
+  color: #999;
+  opacity: .7;
+}
